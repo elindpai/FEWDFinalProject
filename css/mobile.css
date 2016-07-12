@@ -1,0 +1,50 @@
+@media screen and (max-width: 650px){
+	.PageTitle h1, .HomeDelivery h1{
+		font-size: 2rem;
+	}
+	section.PageTitle h2, section.Pickup >p, p, ul.OnSubmit > li{
+		font-size: 1rem;
+	}
+	.OnSubmit h3, .HomeDelivery h3{
+		font-size: 1.5rem;
+	}
+	.social{
+		display: none;
+	}
+	.account{
+		display: none !important;
+	}
+	nav{
+		display: none !important;
+	}
+	.logo{
+		margin-bottom: 5px;
+	}
+	.background > img{
+		height: 400px;
+	}
+	section.OnSubmit{
+		text-align: left;
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	#NextDelivery h3{
+		margin-top: 5px;
+		display: inline-block;
+	}
+	#NextDelivery{
+		display: inline-block;
+		padding: 0;
+	}
+	ul.HomeDelivery, ul.hub, ul.OnSubmit{
+		padding-left: 10px;
+	}
+	#newEntry{
+		margin-bottom: 10px;
+		border: solid #B9B9BA 1px;
+		width: 71%;
+	}
+	input{
+		text-align: center;
+}
+}
